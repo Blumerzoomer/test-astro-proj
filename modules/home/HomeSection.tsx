@@ -1,4 +1,4 @@
-import HomeSendEmail from "./HomeSendEmail";
+import HomeSendEmail from "./HomeSendEmail/HomeSendEmail";
 import HomeLinks from "./HomeLinks";
 import HomeImages from "./HomeImages/HomeImages";
 

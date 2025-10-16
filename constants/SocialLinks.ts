@@ -12,7 +12,7 @@ export const socialLinks: SocialLinkType[] = [
   },
   {
     icon: "icons/socials/instagram.svg",
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/astro.sensei",
     alt: "Instagram",
   },
   {
@@ -21,8 +21,8 @@ export const socialLinks: SocialLinkType[] = [
     alt: "Youtube",
   },
   {
-    icon: "icons/socials/x.svg",
-    link: "https://x.com/",
-    alt: "X",
+    icon: "icons/socials/tiktok.svg",
+    link: "https://www.tiktok.com/@astrosensei.com",
+    alt: "Tiktok",
   },
 ];

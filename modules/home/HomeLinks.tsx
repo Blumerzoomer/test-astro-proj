@@ -10,7 +10,7 @@ export default function HomeLinks() {
       {socialLinks.map((item) => (
         <li
           key={item.alt}
-          className="cursor-pointer hover:scale-110 transition-all duration-300 ease-out"
+          className="cursor-pointer hover:scale-125 transition-all duration-300 ease-out"
         >
           <Link
             href={item.link}
