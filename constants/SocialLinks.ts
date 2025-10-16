@@ -1,0 +1,28 @@
+export interface SocialLinkType {
+  icon: string;
+  link: string;
+  alt: string;
+}
+
+export const socialLinks: SocialLinkType[] = [
+  {
+    icon: "icons/socials/facebook.svg",
+    link: "https://www.facebook.com/",
+    alt: "Facebook",
+  },
+  {
+    icon: "icons/socials/instagram.svg",
+    link: "https://www.instagram.com/",
+    alt: "Instagram",
+  },
+  {
+    icon: "icons/socials/youtube.svg",
+    link: "https://www.youtube.com/",
+    alt: "Youtube",
+  },
+  {
+    icon: "icons/socials/x.svg",
+    link: "https://x.com/",
+    alt: "X",
+  },
+];

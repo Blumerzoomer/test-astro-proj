@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary-color: #F5E7BC;
+  --secondary-color: #8C8C8C;
 }
 
 @theme inline {
@@ -19,17 +19,13 @@
   }
 }
 
-h1, p, input, button {
-  font-family: var(--font-montserrat), sans-serif;
-}
+
 
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-body {
-  /* background: var(--background);
-  color: var(--foreground); */
-  /* font-family: Arial, Helvetica, sans-serif; */
+main {
+  font-family: var(--font-montserrat), sans-serif;
 }
