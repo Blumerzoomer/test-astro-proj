@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function HomeLinks() {
   return (
-    <ul className="w-fit flex flex-row gap-6 mx-auto mt-[30px]">
+    <ul className="w-fit flex flex-row gap-6 mx-auto mt-[29px]">
       {socialLinks.map((item) => (
         <li
           key={item.alt}

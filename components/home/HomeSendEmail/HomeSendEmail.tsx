@@ -22,8 +22,8 @@ export default function HomeSendEmail() {
   const isFilled = email.trim().length > 0;
 
   return (
-    <div className="w-full mt-[25px] sm:mt-[30px]">
-      <div className="w-full max-w-[360px] h-[60px] flex items-center justify-between p-[8px] mx-auto border-[1px] border-[var(--primary-color)]/30 rounded-md transition-all focus-within:border-[var(--primary-color)]">
+    <div className="w-full mt-[24px] sm:mt-[29px]">
+      <div className="w-full max-w-[360px] h-[56px] sm:h-[60px] flex items-center justify-between p-[8px] mx-auto border-[1px] border-[var(--primary-color)]/30 rounded-md transition-all focus-within:border-[var(--primary-color)]">
 
         <div
           className={classNames(
