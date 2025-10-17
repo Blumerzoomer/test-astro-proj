@@ -9,7 +9,7 @@ export default function HomeSendEmail() {
   const [email, setEmail] = useState("");
 
   const triggerAnimation = () => {
-    if (!email) { // тільки якщо поле порожнє
+    if (!email) {
       setAnimate(true);
       setTimeout(() => setAnimate(false), 600);
     }

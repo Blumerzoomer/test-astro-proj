@@ -19,14 +19,13 @@
   left: -15%;
   right: -15%;
   height: 100vh;
-  top: -10%;
+  top: 0%;
   background-image: url("/bg/sensei.png");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  transform: scale(0.8);
+  transform: 1;
   z-index: -1;
-  
 }
 
 .bgClouds {
@@ -39,26 +38,25 @@
   right: 0;
   height: 100vh;
   background-image: url("/bg/bg-cloudes.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-@media (max-width: 1280px) {
+@media (max-width: 1024px) {
   .bgClouds {
+    top: -8%;
     overflow: hidden;
   }
 
   .bgClouds::before {
     content: "";
     position: absolute;
-    width: 90%;
+    width: 70%;
     height: 100vh;
     z-index: 3;
-    top: -10%;
-    left: -60%;
-    background-image: url("/bg/cloudes-left.png");
+    left: -46%;
+    background-image: url(/bg/cloudes-left.png);
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
@@ -68,12 +66,12 @@
   .bgClouds::after {
     content: "";
     position: absolute;
-    width: 90%;
+    width: 70%;
     height: 100vh;
     z-index: 3;
     top: -10%;
-    right: -55%;
-    background-image: url("/bg/cloudes-right.png");
+    right: -40%;
+    background-image: url(/bg/cloudes-right.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -86,20 +84,38 @@
     content: "";
     position: absolute;
     width: 183%;
-    left: -43%;
+    left: -40%;
     right: -14%;
     height: 100vh;
-    top: -8%;
+    top: -3%;
     background-image: url(/bg/sensei.png);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    scale: calc(0.75);
+    scale: calc(0.8);
     z-index: -1;
   }
 
-  .bgClouds::before,
   .bgClouds::after {
-    top: -14%;
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 100vh;
+    z-index: 3;
+    top: -8%;
+    right: 0%;
+    background-image: url(/bg/cloudes-right-mobile.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .bgClouds::before {
+    top: -12%;
+  }
+
+  .bgClouds {
+    background-image: none;
   }
 }
