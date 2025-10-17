@@ -43,6 +43,19 @@
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1919px) {
+  .senseiImg::before {
+    content: "";
+    position: absolute;
+    width: 130%;
+    left: -15%;
+    right: -15%;
+    height: 100vh;
+    top: -9%;
+    scale: calc(0.8);
+  }
+}
+
 @media (max-width: 1024px) {
   .bgClouds {
     top: -8%;
