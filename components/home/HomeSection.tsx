@@ -6,12 +6,12 @@ export default function HomeSection() {
   return (
     <div className="w-full">
       <HomeImages/>
-      <div className="flex  flex-col max-w-[517px] mx-auto items-center w-full my-auto p-4  absolute z-[3] top-[78vh] sm:top-[82vh] left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div className="flex  flex-col max-w-[517px] mx-auto items-center w-full my-auto px-4 pb-4 absolute z-[3] top-[78vh] sm:top-[82vh] left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="w-full">
           <h1 className="text-[var(--primary-color)] font-montserrat text-center text-[20px] mb-[14px] sm:mb-[29px] sm:text-[32px] font-bold w-fit max-w-[400px] mx-auto leading-8">
             Your Astro Journey <br /> Starts Here...
           </h1>
-          <p className="text-[var(--primary-color)] font-montserrat mx-auto text-[16px] sm:text-[24px] text-center">
+          <p className="text-[var(--primary-color)] font-montserrat mx-auto text-[16px] sm:text-[24px] text-center leading-5">
             Join the Private Beta’s Waitlist.
           </p>
         </div>
